@@ -1,0 +1,17 @@
+version: 2 
+
+seeds: 
+  - name: salesorderdetail
+    description: contains sales data between 2011-01-01 to 2011-12-31.  
+    config: 
+      schema: sales
+      column_types: 
+        salesorderid: integer
+        orderqty: FLOAT64
+        salesorderdetailid: integer
+        unitprice: FLOAT64
+        specialofferid: integer
+        modifieddate: timestamp
+        rowguid: string
+        productid: integer
+        unitpricediscount: FLOAT64
